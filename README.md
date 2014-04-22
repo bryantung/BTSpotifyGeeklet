@@ -31,16 +31,20 @@ Running without argument will also update the Artwork.tiff file
 
 **With arguments**
 ```
-osascript -e path_to_script -name     // return track name
-osascript -e path_to_script -artist   // return track artist
-osascript -e path_to_script -album    // return track album
-osascript -e path_to_script -time     // return track time/duration
-osascript -e path_to_script -artwork  // update Artwork.tiff
+osascript path_to_script -name     // return track name
+osascript path_to_script -artist   // return track artist
+osascript path_to_script -album    // return track album
+osascript path_to_script -time     // return track time/duration
+osascript path_to_script -artwork  // update Artwork.tiff
 ```
 
 In Image Geeklet, set the path to ```path_to_script_folder/Artwork.tiff```
 
 Refresh geeklets with duration of 1-5 secs, depending on your preference
+
+Screenshot
+----------
+<img src="https://github.com/bryantung/BTSpotifyGeeklet/raw/master/Screenshot%20Playing.png" width=500></img>
 
 Credit
 ------
