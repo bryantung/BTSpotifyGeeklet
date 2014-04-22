@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Alignment</key>
+	<integer>8</integer>
+	<key>GeekletFrame</key>
+	<string>{{1509, 74}, {141, 130}}</string>
+	<key>HasShadow</key>
+	<true/>
+	<key>Identifier</key>
+	<string>org.tynsoe.geeklet.image</string>
+	<key>ImageURL</key>
+	<string>file://localhost/Users/bryantung/Documents/Geektool/Spotify/Artwork.tiff</string>
+	<key>Name</key>
+	<string>TrackArtwork</string>
+	<key>RefreshInterval</key>
+	<integer>1</integer>
+</dict>
+</plist>
