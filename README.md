@@ -3,8 +3,8 @@ BTSpotifyGeeklet
 
 Geeklet for Spotify player, shows track info and artwork
 
-Instruction
------------
+Instructions
+------------
 ###**Easy setup**<br/>
 <ol>
 <li>download the zip file from <a href="https://github.com/bryantung/BTSpotifyGeeklet/releases">releases</a> tab
@@ -18,7 +18,7 @@ Instruction
 In Shell Geeklet, type in command:<br/>
 **Without arguments**
 ```
-osascript -e path_to_script
+osascript path_to_script
 ```
 Result
 ```
