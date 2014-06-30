@@ -42,6 +42,11 @@ In Image Geeklet, set the path to ```path_to_script_folder/Artwork.tiff```
 
 Refresh geeklets with duration of 1-5 secs, depending on your preference
 
+Extras
+------
+If you don't want the Spotify icon as the default artwork, there's another transparent icon in ```path_to_script_folder/DefaultArtwork/DefaultArtworkTrans.tiff```, rename it to ```DefaultArtwork.tiff```.
+If you prefer another icon image, you can just replace the ```DefaultArtwork.tiff```.
+
 Screenshot
 ----------
 <img src="https://github.com/bryantung/BTSpotifyGeeklet/raw/master/Screenshot%20Playing.png" width=500></img>
