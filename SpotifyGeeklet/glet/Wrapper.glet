@@ -8,7 +8,7 @@
 	ZgCDMzOzPoY=
 	</data>
 	<key>Command</key>
-	<string>osascript ~/Documents/Geektool/Spotify/SpotifyNowPlaying.scpt -artwork</string>
+	<string>/bin/bash ~/Documents/Geektool/BTSpotifyGeeklet/SpotifyGeeklet/update-artwork</string>
 	<key>DropShadow</key>
 	<false/>
 	<key>FailureImage</key>
@@ -105,7 +105,7 @@
 	<key>FontSize</key>
 	<real>10</real>
 	<key>GeekletFrame</key>
-	<string>{{1080, 65}, {580, 149}}</string>
+	<string>{{343, 33}, {580, 149}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>
