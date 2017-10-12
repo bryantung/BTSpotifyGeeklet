@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Command</key>
-	<string>osascript ~/Documents/Geektool/Spotify/SpotifyNowPlaying.scpt -name</string>
+	<string>osascript -l JavaScript ~/Documents/Geektool/BTSpotifyGeeklet/SpotifyGeeklet/SpotifyNowPlaying.js name</string>
 	<key>DropShadow</key>
 	<false/>
 	<key>FailureImage</key>
@@ -100,13 +100,13 @@
 	<key>FontSize</key>
 	<real>36</real>
 	<key>GeekletFrame</key>
-	<string>{{1083, 68}, {434, 53}}</string>
+	<string>{{346, 36}, {434, 53}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>
 	<string>org.tynsoe.geeklet.shell</string>
 	<key>Name</key>
-	<string> TrackName</string>
+	<string>TrackName</string>
 	<key>RefreshInterval</key>
 	<integer>1</integer>
 	<key>SetLocale</key>

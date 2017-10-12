@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Command</key>
-	<string>osascript ~/Documents/Geektool/Spotify/SpotifyNowPlaying.scpt -time</string>
+	<string>osascript -l JavaScript ~/Documents/Geektool/BTSpotifyGeeklet/SpotifyGeeklet/SpotifyNowPlaying.js time</string>
 	<key>DropShadow</key>
 	<false/>
 	<key>FailureImage</key>
@@ -100,7 +100,7 @@
 	<key>FontSize</key>
 	<real>36</real>
 	<key>GeekletFrame</key>
-	<string>{{1083, 167}, {434, 45}}</string>
+	<string>{{346, 135}, {434, 45}}</string>
 	<key>HasShadow</key>
 	<false/>
 	<key>Identifier</key>

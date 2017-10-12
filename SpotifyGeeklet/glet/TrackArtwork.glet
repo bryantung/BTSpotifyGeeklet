@@ -5,13 +5,13 @@
 	<key>Alignment</key>
 	<integer>8</integer>
 	<key>GeekletFrame</key>
-	<string>{{1509, 74}, {141, 130}}</string>
+	<string>{{772, 42}, {141, 130}}</string>
 	<key>HasShadow</key>
 	<true/>
 	<key>Identifier</key>
 	<string>org.tynsoe.geeklet.image</string>
 	<key>ImageURL</key>
-	<string>file://localhost/Users/bryantung/Documents/Geektool/Spotify/Artwork.tiff</string>
+	<string>file:///tmp/SpotifyNowPlaying-Artwork.jpg</string>
 	<key>Name</key>
 	<string>TrackArtwork</string>
 	<key>RefreshInterval</key>
