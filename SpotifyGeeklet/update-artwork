@@ -3,13 +3,13 @@
 top=$(dirname $0)
 
 artwork_url=$(osascript -l JavaScript "${top}/SpotifyNowPlaying.js" artwork)
-artwork="/tmp/SpotifyNowPlaying-Artwork.jpg"
+artwork="/tmp/SpotifyNowPlaying-Artwork.png"
 artwork_sum="/tmp/SpotifyNowPlaying-Artwork.sha1sum"
-default_artwork="/tmp/SpotifyNowPlaying-DefaultArtwork.tiff"
+default_artwork="/tmp/SpotifyNowPlaying-DefaultArtwork.png"
 
 if ! test -s "$default_artwork"
 then
-    cp -f "${top}/DefaultArtwork/DefaultArtwork.tiff" "$default_artwork" || { echo "${top}/DefaultArtwork/DefaultArtwork.tiff not found"; exit 1; }
+    cp -f "${top}/DefaultArtwork/DefaultArtwork.png" "$default_artwork" || { echo "${top}/DefaultArtwork/DefaultArtwork.png not found"; exit 1; }
 fi
 
 if test -n "$artwork_url"
