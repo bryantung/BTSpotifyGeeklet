@@ -26,7 +26,7 @@ else
     inum_current=$(stat -f '%i' "$artwork")
     if [[ ${inum_default} -ne ${inum_current} ]]
     then
-        ln -f "$default_artwork" "$artwork"
+        cp -f "$default_artwork" "$artwork"
         rm -f "$artwork_sum"
     fi
 fi
